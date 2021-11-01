@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/lpp0zam.css">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <script src="assets/js/script.js" defer></script>
+    <title>WEXO Code Challenge</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Frontpage &#127916;</a>
+                </li>
+                <li>
+                    <a href="index.html?wishlist">My wishlist &hearts;</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="mobileNavClosed">
+            <a class="emoji" href="index.html">&#127916;</a>
+            <i id="navIkon" class="fas fa-bars" onclick="dropdownMobile()"></i>
+            <i id="navIkon2" class="fas fa-times" onclick="dropdownMobile()"></i>
+        </div>
+        <div class="dropdownMobile">
+            <ul id="navMobile">
+                <li>
+                    <a href="index.html">Frontpage</a>
+                </li>
+                <li>
+                    <a href="index.html?wishlist">My wishlist &hearts;</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1></h1>
+        <p id="count"></p>
+        <div id="output"></div>
+    </main>
+    <footer>
+        <div id="scrollUp" onclick="backToTop()"><i class="fas fa-arrow-up"></i></div>
+       <p>WEXO Code Challenge @ Charlotte Gracia 2021</p>
+    </footer>
+</body>
+</html>
